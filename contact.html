@@ -1,44 +1,46 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-  <meta charset="UTF-8">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
-  <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/> -->
-  <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8">
+    <title>Contact|Salma Mohamed</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+    <style>
+      @media screen and (max-width: 980px, 768px, 640px) {
+      }
+    </style>
 </head>
+
 <body>
-  <!-- Header  -->
-  <header class="header">
+  <header id="masthead">
     <div class="container">
-      <div class="title">
-        <h2>Salma Mohamed</h2>
-      </div>
-      <div class="nav-bar">
-        <a href="index.html">About</a> <a href="portfolio.html">Portfolio</a> <a class="current" href="contact.html">Contact</a>
-      </div>
+      <a href="index.html" id="logo">Salma Mohamed</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
-  </header><!-- Body  -->
-  <div class="container site-body">
-    <!-- Main Content  -->
-    <section class="main-content body-item">
-      <h1>Contact</h1>
-      <div class="main-content-page-break"></div>
-      <form>
-        <p>Name</p><input name="firstname" placeholder="John Smith" type="text"><br>
-        <p>Email</p><input name="lastname" placeholder="example@gmail.com" type="text"><br>
-        <p>Message</p><textarea name="message"></textarea> <input type="submit" value="Submit">
-      </form>
-    </section><!-- Side Bar  -->
-    <aside class="connect-sidebar body-item">
-      <h2>Connect with Me</h2>
-      <div class="connect-page-break"></div><span class="connect-link fa-github-square"></span> <span class="connect-link fa-linkedin-square"></span> <span class="connect-link fa-square"><i class="fa-stack-overflow"></i></span>
-    </aside>
-    <div class="footer-push"></div>
-  </div><!-- /container -->
-  <!-- Footer  -->
-  <footer class="footer">
-    <p>&copy; Copyright 2020 Salma Mohamed</p>
+  </header>
+  
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Get in touch with me!</h1>
+      <div class="sub-container">
+        <a href="https://github.com/moha0477" target="_blank"><img src="assets/images/github.jpg" style="height: 175px; width: 175px;"></a> &ensp;
+        <a href="mailto:moha0477@umn.edu" target="_blank"><img src="assets/images/gmail.png" style=" height: 175px; width: 175px;"></a> &ensp;
+        <a href="https://www.linkedin.com/in/salma-mohamed-34597a162/" target="_blank"><img src="assets/images/linkedin.jpg" style=" height: 175px; width: 175px;"></a>
+        <a href="tel:6127029283" target="_blank"><img src="assets/images/phone.png" style=" height: 175px; width: 175px;"></a>
+      </div>
+    </section>
+  </div>
+  
+  <footer>
+    <div class="container">
+      Copyright Salma Mohamed 2020 &copy;
+    </div>
   </footer>
+
 </body>
 </html
